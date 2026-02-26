@@ -12,26 +12,26 @@ public class ProduitTest {
 
         System.out.println("===== TEST PRODUIT =====");
 
-        // 🔹 CREATE
+        // creation des produits
         ProduitAgro p1 = new ProduitAgro("Tomate", "Legume", 3.5);
         service.create(p1);
 
         ProduitAgro p2 = new ProduitAgro("Orange", "Fruit", 4.2);
         service.create(p2);
 
-        // 🔹 FIND ALL
+        // trouver tous les produits
         System.out.println("\nListe des produits :");
         List<ProduitAgro> list = service.findAll();
         for (ProduitAgro p : list) {
             System.out.println(p);
         }
 
-        // 🔹 UPDATE
+        // modifier un produit
         System.out.println("\nModification prix produit...");
         p1.setPrixKg(5.0);
         service.update(p1);
 
-        // 🔹 FIND BY ID
+        //trouver produit par son id
         System.out.println("\nRecherche produit par ID :");
         ProduitAgro prod = service.findById(p1.getIdProduit());
         if (prod != null)
@@ -39,12 +39,12 @@ public class ProduitTest {
         else
             System.out.println("Produit non trouvé");
 
-        // 🔹 DELETE
+        // supprimer produit
         System.out.println("\nSuppression produit...");
        service.delete(p2.getIdProduit());
 
 
-        // 🔹 LISTE APRÈS DELETE
+        //leste des produit apres suppression 
         System.out.println("\nListe après suppression :");
         for (ProduitAgro p : service.findAll()) {
             System.out.println(p);
