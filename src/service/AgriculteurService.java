@@ -64,7 +64,7 @@ public class AgriculteurService implements GenericDAO<Agriculteur> {
         }
     }
 
-    // 🔥 IMPORTANT : cette méthode était cassée
+    
     @Override
     public Agriculteur findById(int id) {
         Agriculteur a = null;
@@ -109,7 +109,7 @@ public class AgriculteurService implements GenericDAO<Agriculteur> {
         return list;
     }
 
-    // ✔️ version delete utilisée par tes tests
+ 
     public void delete(Agriculteur a) {
         delete(a.getIdAgriculteur());
     }
