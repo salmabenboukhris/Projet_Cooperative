@@ -1,17 +1,17 @@
-🌾 Système de Gestion : Coopérative Agricole
+### 🌾 Système de Gestion : Coopérative Agricole
 
----- Description du Projet----
+##  Description du Projet
 
 Ce projet consiste en une application de bureau destinée à la Coopérative Agricole.
 Elle permet de gérer le cycle de vente des produits agroalimentaires, de suivre les
 stocks des agriculteurs et d'analyser les performances commerciales via des outils statistiques.
 
----- 1. Conception (UML)----
+##  1. Conception (UML)
   
 La phase de conception a été réalisée avec le standard UML pour garantir une structure de données
  robuste et une logique métier claire.
 
-----Diagramme de Cas d'Utilisation----
+## Diagramme de Cas d'Utilisation
 
 Objectif : Identifier les acteurs et les fonctionnalités clés.
 
@@ -19,7 +19,7 @@ Objectif : Identifier les acteurs et les fonctionnalités clés.
 
 
 
-----Diagramme de Classes----
+## Diagramme de Classes
 
 Objectif : Modéliser les entités ProduitAgro, Agriculteur, et VenteAgro ainsi que leurs relations.
 
@@ -27,7 +27,7 @@ Objectif : Modéliser les entités ProduitAgro, Agriculteur, et VenteAgro ainsi 
 
 
 
----- 2. Architecture du Projet----
+## 2. Architecture du Projet
 
 L'application respecte le design pattern DAO (Data Access Object) pour une séparation 
 stricte entre l'interface utilisateur (UI), la logique métier et l'accès aux données.
@@ -35,18 +35,18 @@ stricte entre l'interface utilisateur (UI), la logique métier et l'accès aux d
    <img width="403" height="648" alt="image" src="https://github.com/user-attachments/assets/1aeb834b-d29a-4cac-8b05-7418c8c62341" />
 
 
----- 3. Fonctionnalités CRUD----
+##  3. Fonctionnalités CRUD
 
 Nous avons implémenté une gestion complète (Créer, Lire, Mettre à jour, Supprimer) pour les 3 entités principales avec validation des données.
 
-----Agriculteurs ----
+## Agriculteurs 
 
 <img width="433" height="534" alt="image" src="https://github.com/user-attachments/assets/253d75d1-d194-40df-93b5-698039a4f5a6" />
 
 <img width="434" height="378" alt="image" src="https://github.com/user-attachments/assets/738abc6c-5618-4851-a64c-b791f6878910" />
 
 
-----Produits----
+## Produits
 
 <img width="448" height="457" alt="image" src="https://github.com/user-attachments/assets/f9a84a6a-83d5-476b-9bcb-07364edad69a" />
 
@@ -54,7 +54,7 @@ Nous avons implémenté une gestion complète (Créer, Lire, Mettre à jour, Sup
 
 
 
-----Ventes----	
+## Ventes
 
 
 <img width="457" height="421" alt="image" src="https://github.com/user-attachments/assets/dd362abf-293d-49b3-9730-6a3b33683ad5" />
@@ -62,7 +62,7 @@ Nous avons implémenté une gestion complète (Créer, Lire, Mettre à jour, Sup
 <img width="463" height="333" alt="image" src="https://github.com/user-attachments/assets/03120174-4ff1-46c2-8866-9b4ae114f268" />
 
 
----- 4. Filtrage et Recherche----
+##  4. Filtrage et Recherche
 
 L'application permet d'extraire des données précises grâce à des requêtes SQL paramétrées :
 
@@ -76,7 +76,7 @@ L'application permet d'extraire des données précises grâce à des requêtes S
 <img width="684" height="397" alt="Capture d’écran 2026-02-26 070404" src="https://github.com/user-attachments/assets/4088d5e5-9fe3-4e4a-8f7f-2d3df4608d0d" />
 
 
----- 5. Sécurité (Hachage)----
+##  5. Sécurité (Hachage)
 
 + Une interface de Login.
 
@@ -87,7 +87,7 @@ L'application permet d'extraire des données précises grâce à des requêtes S
 
 
 
----- 6. Statistiques et Visualisation----
+##  6. Statistiques et Visualisation
 
 Intégration de JFreeChart pour une aide à la décision visuelle.
 
@@ -95,7 +95,7 @@ Intégration de JFreeChart pour une aide à la décision visuelle.
 <img width="595" height="394" alt="Capture d’écran 2026-02-26 070512" src="https://github.com/user-attachments/assets/2b2eb54f-c2c7-448b-970f-ba611801a4ce" />
  
 
-----7. Ergonomie et Interface----
+## 7. Ergonomie et Interface
 
 +  Messages de confirmation (Pop-ups).
 
@@ -107,7 +107,7 @@ Intégration de JFreeChart pour une aide à la décision visuelle.
 <img width="492" height="354" alt="message2" src="https://github.com/user-attachments/assets/a449430c-6e18-46c5-ab1e-30918cd06dac" />
 
 
----- 8. Installation (Déploiement)----
+##  8. Installation (Déploiement)
 
 Un installateur professionnel a été généré avec Inno Setup.
 
@@ -115,7 +115,7 @@ Un installateur professionnel a été généré avec Inno Setup.
 
 
 
-----Technologies Utilisées----
+## Technologies Utilisées
 
   + Langage : Java
 
@@ -128,7 +128,7 @@ Un installateur professionnel a été généré avec Inno Setup.
    + Déploiement : Inno Setup
 
 
-=====Vidéo démonstrative ====
+## Vidéo démonstrative 
 
 
 https://youtu.be/lDzTaGt0kVg
