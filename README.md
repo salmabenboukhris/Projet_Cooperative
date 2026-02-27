@@ -15,7 +15,9 @@ La phase de conception a été réalisée avec le standard UML pour garantir une
 
 Objectif : Identifier les acteurs et les fonctionnalités clés.
 
-    
+![WhatsApp Image 2026-02-26 at 23 39 22](https://github.com/user-attachments/assets/896974f2-819d-455d-8680-e6c228e3b24e)
+
+
 
 ----Diagramme de Classes----
 
