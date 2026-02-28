@@ -131,6 +131,12 @@ Un installateur professionnel a été généré avec Inno Setup.
 ## Vidéo démonstrative 
 
 
-https://youtu.be/lDzTaGt0kVg
+
+https://github.com/user-attachments/assets/df9ef814-02e5-436c-a9b1-4b811339fec4
+
+
+
+
+
 
 
