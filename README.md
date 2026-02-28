@@ -107,12 +107,6 @@ Intégration de JFreeChart pour une aide à la décision visuelle.
 <img width="492" height="354" alt="message2" src="https://github.com/user-attachments/assets/a449430c-6e18-46c5-ab1e-30918cd06dac" />
 
 
-##  8. Installation (Déploiement)
-
-Un installateur professionnel a été généré avec Inno Setup.
-
-<img width="388" height="102" alt="image" src="https://github.com/user-attachments/assets/f539557d-b0ec-49c1-abee-a5c1119ad7e0" />
-
 
 
 ## Technologies Utilisées
@@ -125,7 +119,7 @@ Un installateur professionnel a été généré avec Inno Setup.
 
    + Reporting : JFreeChart
 
-   + Déploiement : Inno Setup
+
 
 
 ## Vidéo démonstrative 
