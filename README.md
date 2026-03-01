@@ -32,7 +32,8 @@ Objectif : Modéliser les entités ProduitAgro, Agriculteur, et VenteAgro ainsi 
 L'application respecte le design pattern DAO (Data Access Object) pour une séparation 
 stricte entre l'interface utilisateur (UI), la logique métier et l'accès aux données.
 
-   <img width="403" height="648" alt="image" src="https://github.com/user-attachments/assets/1aeb834b-d29a-4cac-8b05-7418c8c62341" />
+
+![ARCHITECTURE PROJET](https://github.com/user-attachments/assets/301c3e3b-96c8-41b8-84d7-bcdfbb2be8fc)
 
 
 ##  3. Fonctionnalités CRUD
