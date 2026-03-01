@@ -127,7 +127,10 @@ Intégration de JFreeChart pour une aide à la décision visuelle.
 
 
 
-https://github.com/user-attachments/assets/df9ef814-02e5-436c-a9b1-4b811339fec4
+
+https://github.com/user-attachments/assets/a4df4a59-f8dd-47c2-988c-7950d4f1fc45
+
+
 
 
 
